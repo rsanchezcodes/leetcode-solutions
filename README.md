@@ -1,13 +1,13 @@
-# Leetcode Solutions
+# LeetCode Solutions
 
-Soluciones organizadas por patrón de resolución, no por orden cronológico. El objetivo es que cada carpeta enseñe una técnica reutilizable en lugar de acumular ejercicios sueltos.
+Solutions organized by problem-solving pattern rather than chronological order. The goal is for each folder to teach a reusable technique instead of just accumulating standalone exercises.
 
-**Lenguaje:** Java
+**Languages:** Java, Python
 
-## Progreso por patrón
+## Progress by pattern
 
-| # | Patrón | Problemas resueltos | Notas |
-|---|--------|:---:|-------|
+| # | Pattern | Problems solved | Notes |
+|---|---------|:---:|-------|
 | 01 | [Arrays & Hashing](./01-arrays-hashing) | 0 | |
 | 02 | [Two Pointers & Sliding Window](./02-two-pointers-sliding-window) | 0 | |
 | 03 | [Stack & Queue](./03-stack-queue) | 0 | |
@@ -17,24 +17,33 @@ Soluciones organizadas por patrón de resolución, no por orden cronológico. El
 | 07 | [Dynamic Programming](./07-dynamic-programming) | 0 | |
 | 08 | [Greedy & Intervals](./08-greedy-intervals) | 0 | |
 
-## Convención de nombres
+## Naming convention
 
-Cada archivo sigue el formato `NNN.nombreProblema.java`, donde `NNN` es el número del problema en LeetCode (ej. `001.twoSum.java`).
+Each file follows the format `NNN.problemName.<ext>`, where `NNN` is the problem's LeetCode number and `<ext>` is `.java` or `.py` (e.g. `001.twoSum.<ext>`). If a problem is solved in more than one language, both files live in the same pattern folder.
 
-## Estructura de cada README de carpeta
+## Structure of each folder README
 
-Cada carpeta de patrón incluye su propio `README.md` con:
-- Qué reconocer en un enunciado para identificar que aplica este patrón
-- Enlace a notas ampliadas (si existen)
-- Lista de problemas resueltos con complejidad temporal/espacial
+Each pattern folder has its own `README.md` including:
+- What to recognize in a problem statement to identify that this pattern applies
+- Link to extended notes (if any)
+- List of solved problems with language and time/space complexity
 
-## Registro por problema (dentro de cada solución)
+## Per-problem record (inside each solution file)
 
-Cada archivo de solución incluye como comentario de cabecera:
+Each solution file includes a header comment:
 
+Java:
 ```java
-// Problema: [nombre + enlace]
-// Patrón: [patrón aplicado]
-// Complejidad: O(?) tiempo, O(?) espacio
-// Primer intento vs. solución final: [qué falló al principio, si aplica]
+// Problem: [name + link]
+// Pattern: [pattern applied]
+// Complexity: O(?) time, O(?) space
+// First attempt vs. final solution: [what went wrong initially, if applicable]
+```
+
+Python:
+```python
+# Problem: [name + link]
+# Pattern: [pattern applied]
+# Complexity: O(?) time, O(?) space
+# First attempt vs. final solution: [what went wrong initially, if applicable]
 ```
