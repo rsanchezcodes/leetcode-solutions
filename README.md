@@ -19,7 +19,7 @@ Solutions organized by problem-solving pattern rather than chronological order. 
 
 ## Naming convention
 
-Each file follows the format `NNN.problem-name.<ext>`, where `NNN` is the problem's LeetCode number and `<ext>` is `.java` or `.py` (e.g. `001.two-sum.<ext>`). If a problem is solved in more than one language, both files live in the same pattern folder.
+Each file follows the format `NNN.problemName.<ext>`, where `NNN` is the problem's LeetCode number and `<ext>` is `.java` or `.py` (e.g. `001.problemName.<ext>`). If a problem is solved in more than one language, both files live in the same pattern folder.
 
 ## Structure of each folder README
 
