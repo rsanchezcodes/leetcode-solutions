@@ -19,4 +19,4 @@ Using arrays and hash-based structures (`HashMap`, `HashSet`) to reduce lookups 
 
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
-| | | | | | |
+| 1 | Two Sum | Java | O(n) | O(n) | Started with brute force O(n²), then used a HashMap (value → index) checking the complement before inserting |
