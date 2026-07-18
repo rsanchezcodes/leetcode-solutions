@@ -9,7 +9,7 @@ Solutions organized by problem-solving pattern rather than chronological order. 
 | # | Pattern | Problems solved | Notes |
 |---|---------|:---:|-------|
 | 01 | [Arrays & Hashing](./01-arrays-hashing) | 1 | |
-| 02 | [Two Pointers & Sliding Window](./02-two-pointers-sliding-window) | 0 | |
+| 02 | [Two Pointers & Sliding Window](./02-two-pointers-sliding-window) | 1 | |
 | 03 | [Stack & Queue](./03-stack-queue) | 0 | |
 | 04 | [Binary Search](./04-binary-search) | 0 | |
 | 05 | [Trees & Graphs](./05-trees-graphs) | 0 | |

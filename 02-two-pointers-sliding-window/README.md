@@ -19,4 +19,4 @@ Traversing a structure (array or string) with two coordinated indices, avoiding 
 
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
-| | | | | | |
+| 88 | Merge Sorted Array | Java | O(m+n) | O(1) | First merged into a new O(m+n) array with two pointers left-to-right; optimized to merge in-place into nums1 with two pointers right-to-left (comparing largest elements first), achieving O(1) extra space |
