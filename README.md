@@ -16,6 +16,7 @@ Solutions organized by problem-solving pattern rather than chronological order. 
 | 06 | [Backtracking](./06-backtracking) | 0 | |
 | 07 | [Dynamic Programming](./07-dynamic-programming) | 0 | |
 | 08 | [Greedy & Intervals](./08-greedy-intervals) | 0 | |
+| 09 | [Linked Lists](./09-linked-lists/) | 1 | |
 
 ## Naming convention
 
