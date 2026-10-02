@@ -19,4 +19,5 @@ Traversing a structure (array or string) with two coordinated indices, avoiding 
 
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
+| 3 | Longest Substring Without Repeating Characters | Java | O(n) | O(min(n, k)) | First kept the window as a StringBuilder and trimmed it with indexOf/delete, which was correct but O(n·k) since every step scanned and shifted the window; optimized with a left pointer and a HashMap of last seen indices, using Math.max(left, pos + 1) so left never moves backwards on stale entries (e.g. "abba"), achieving O(1) per step |
 | 88 | Merge Sorted Array | Java | O(m+n) | O(1) | First merged into a new O(m+n) array with two pointers left-to-right; optimized to merge in-place into nums1 with two pointers right-to-left (comparing largest elements first), achieving O(1) extra space |
