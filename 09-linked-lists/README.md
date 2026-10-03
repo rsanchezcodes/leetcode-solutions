@@ -21,3 +21,4 @@ Manipulating a sequence of nodes connected via `next` references instead of an a
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
 | 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Java | O(max(n, m)) | O(max(n, m)) | Simulation / Carry Propagation |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Java | O(m + k) | O(1) | First overwrote newList.next on every iteration without advancing the tail pointer, picked the larger node instead of the smaller one, and returned the dummy node itself; optimized with a single dummy head with a moving tail, and attaches the remaining list in one assignment once either list runs out |
