@@ -20,5 +20,6 @@ Manipulating a sequence of nodes connected via `next` references instead of an a
 
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
-| 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Java | O(max(n, m)) | O(max(n, m)) | Simulation / Carry Propagation |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Java | O(max(n, m)) | O(max(n, m)) | Simulation / Carry Propagation |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Java | O(Size) | O(1), only references are used | First mesaured the list in a first pass and then walked size - n nodes, lacked dummy head, so removing the head needed a fragile special case; optimized with a a dummy head so the node before the target always exists, and a fast pointer advanced n steps ahead of a slow one, finding the node to delete in a single pass |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Java | O(m + k) | O(1) | First overwrote newList.next on every iteration without advancing the tail pointer, picked the larger node instead of the smaller one, and returned the dummy node itself; optimized with a single dummy head with a moving tail, and attaches the remaining list in one assignment once either list runs out |
