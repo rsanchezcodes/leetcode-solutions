@@ -22,6 +22,16 @@ Solutions organized by problem-solving pattern rather than chronological order. 
 
 Each file follows the format `NNN.problemName.<ext>`, where `NNN` is the problem's LeetCode number and `<ext>` is `.java` or `.py` (e.g. `001.problemName.<ext>`). If a problem is solved in more than one language, both files live in the same pattern folder.
 
+## Commit and branch convention
+
+Commits are single-line, with no body, and start with the `docs:` prefix. The language of the solution is always named, so every commit is unambiguous on its own.
+
+- Commit: `docs: add <Language> solution for <Problem Name> (Pattern Covered)`, e.g. `docs: add Python solution for Contains Duplicate (Arrays & Hashing)`
+- Branch: `NNN-problem-name-<language>`, e.g. `217-contains-duplicate-python`
+- Merge commit: `docs: merge branch <branch-name>`
+
+The progress table counts problems, not files: adding a second language to an existing problem updates its row in the pattern README (`Java, Python`) but not the counter in this table.
+
 ## Structure of each folder README
 
 Each pattern folder has its own `README.md` including:
