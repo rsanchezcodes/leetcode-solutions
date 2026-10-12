@@ -21,4 +21,5 @@ Using arrays and hash-based structures (`HashMap`, `HashSet`) to reduce lookups 
 |---|---|---|---|---|---|
 | 1 | Two Sum | Java | O(n) | O(n) | Started with brute force O(n²), then used a HashMap (value → index) checking the complement before inserting |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Python | O(n) | O(n) | Hash set with early exit on the first repeated value. Brute force would be O(n^2) time and sorting O(n log n) time |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Java | O(n + m) | O(1) | Frequency array int[26] with early exit on negative count |
 | 2778 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Python | O(n) | O(1) | Single pass checking n % i for each 1-based index |
