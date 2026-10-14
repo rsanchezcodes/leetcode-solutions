@@ -1,7 +1,7 @@
 # 2778.sumOfSquaresOfSpecialElements
 
 # Problem: Sum of Squares of Special Elements (https://leetcode.com/problems/sum-of-squares-of-special-elements/)
-# Pattern: Arrays & Hashing (array traversal with a visibility check)
+# Pattern: Arrays & Hashing (array traversal with a divisibility check)
 # Complexity: O(n) time, O(1) space
 # First attempt vs. final solution: Solved directly with a single pass.
 

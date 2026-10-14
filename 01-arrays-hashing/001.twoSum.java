@@ -1,4 +1,4 @@
-// 001-two-sum.java
+// 001.twoSum.java
 
 // Problem: Two Sum (https://leetcode.com/problems/two-sum/)
 // Pattern: Arrays & Hashing
