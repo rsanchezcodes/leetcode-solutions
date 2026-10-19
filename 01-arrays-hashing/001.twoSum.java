@@ -4,9 +4,10 @@
 // Pattern: Arrays & Hashing
 // Complexity: O(n) time, O(n) space
 // First attempt vs. final solution: started with brute force O(n²) and ended with hash maps, checking before building it. 
-// Extra: Time complexity of map.containsKey() is O(1) due to keys are stored in a HashSet, making the finding O(1) since 
-// there is no need to traverse the whole set when we can only check if the bucket associated to the key's hashcode is empty or not. 
-// That is why when nested inside a for loop, time complexity does not become O(n^2)
+// Extra: map.containsKey() runs in O(1) time on average: the key's hashCode leads directly to the bucket where it would
+// be stored, so only the few keys that share that bucket need to be checked with equals(). In the worst case (many
+// collisions in one bucket) it degrades to O(n), or O(log n) since Java 8, when crowded buckets become trees.
+// That is why calling it inside the for loop keeps the whole solution at O(n) instead of O(n^2).
 
 import java.util.HashMap;
 import java.util.Map;
