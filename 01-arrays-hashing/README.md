@@ -23,4 +23,5 @@ Using arrays and hash-based structures (`HashMap`, `HashSet`) to reduce lookups 
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Java | O(n * k) | O(n * k) | Started with brute force O(n^2 * k), then used a canonical string representation of characters' frequencies in order to hash the different anagrams | 
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Python | O(n) | O(n) | Hash set with early exit on the first repeated value. Brute force would be O(n^2) time and sorting O(n log n) time |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Java | O(n) | O(1) | Frequency array int[26] with early exit on negative count |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Python | O(n) | O(n) | Started by sorting by frequency O(n log n), then bucket sort indexed by frequency, sized by the actual max frequency |
 | 2778 | [Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Python | O(n) | O(1) | Single pass checking n % i for each 1-based index |
