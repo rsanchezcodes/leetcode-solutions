@@ -19,4 +19,4 @@ Using stacks to solve nesting, matching, and "next element that satisfies X" pro
 
 | # LeetCode | Name | Language | Time complexity | Space complexity | Notes |
 |---|---|---|---|---|---|
-| | | | | | |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Java | O(n) | O(n) | Stack of expected closing brackets (map opening → closing), early return on mismatch and empty-stack guard before peek() |
