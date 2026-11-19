@@ -10,7 +10,7 @@ Solutions organized by problem-solving pattern rather than chronological order. 
 |---|---------|:---:|-------|
 | 01 | [Arrays & Hashing](./01-arrays-hashing) | 7 | |
 | 02 | [Two Pointers & Sliding Window](./02-two-pointers-sliding-window) | 2 | |
-| 03 | [Stack & Queue](./03-stack-queue) | 0 | |
+| 03 | [Stack & Queue](./03-stack-queue) | 1 | |
 | 04 | [Binary Search](./04-binary-search) | 0 | |
 | 05 | [Trees & Graphs](./05-trees-graphs) | 0 | |
 | 06 | [Backtracking](./06-backtracking) | 0 | |
